@@ -41,12 +41,15 @@ It does NOT include:
 - `docs/project-roadmap.md`
 - `docs/analyst-notes.md`
 - `docs/red-flags-table.md`
+- `docs/analyst-decision-tree.md`
+- `docs/project-evidence.md`
 
 ## Completed Cases
 - `sample-001` - Fake Microsoft password reset phishing
 - `sample-002` - Fake invoice attachment phishing
 - `sample-003` - Business Email Compromise (BEC) / executive payment request phishing
 - `sample-004` - Fake cloud document sharing phishing
+- `sample-005` - Fake payroll update phishing
 
 ## Reports
 - `reports/report-template.md`
@@ -54,6 +57,7 @@ It does NOT include:
 - `reports/sample-002-analysis.md`
 - `reports/sample-003-analysis.md`
 - `reports/sample-004-analysis.md`
+- `reports/sample-005-analysis.md`
 
 ## Analysis Workflow
 1. Create or collect a safe sample
@@ -70,6 +74,7 @@ It does NOT include:
 - sender and domain inspection
 - attachment risk recognition
 - BEC awareness
+- payroll-themed phishing awareness
 - structured reporting
 - safe documentation practices
 
