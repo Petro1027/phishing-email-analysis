@@ -1,0 +1,27 @@
+Sample ID: SAMPLE-003
+Sample Type: Sanitized Training Example
+Scenario: Business Email Compromise (BEC) / executive payment request
+
+From: Chief Executive Officer <ceo@company-executive-mail.com>
+Reply-To: ceo-private@consultantmail-support.com
+To: finance.manager@company-example.com
+Subject: Need urgent confidential transfer today
+
+Hello,
+
+I am currently in a meeting and need you to handle a confidential transfer immediately.
+
+Do not call me right now because I am unavailable. This must be completed within the next hour.
+
+Please reply as soon as possible so I can send the payment details and beneficiary information.
+
+This is sensitive and should not be shared with anyone else until completed.
+
+Regards,
+CEO
+
+Notes:
+- This is a sanitized educational sample.
+- All addresses, names, and domains are fictional training data.
+- This sample represents a social engineering payment fraud attempt.
+- No real payment details are included.
