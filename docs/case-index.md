@@ -56,12 +56,27 @@ This file provides a quick overview of all phishing analysis cases included in t
   - access urgency
 - Verdict: Likely Phishing
 
+### CASE-005
+- Sample: `samples/sanitized/sample-005-fake-payroll-update.txt`
+- Report: `reports/sample-005-analysis.md`
+- Category: Payroll / credential phishing
+- Theme: Fake payroll update
+- Main red flags:
+  - HR/payroll impersonation
+  - suspicious sender domain
+  - reply-to mismatch
+  - link mismatch
+  - salary delay pressure
+  - sensitive information request
+- Verdict: Likely Phishing
+
 ## Coverage Summary
-Current phishing themes covered in the repository:
+Current phishing themes are covered in the repository:
 - credential phishing
 - invoice/payment phishing
 - business email compromise
 - fake cloud sharing notification phishing
+- HR/payroll phishing
 
 ## Notes
 All samples in this repository are sanitized training examples created for safe educational and portfolio use.
