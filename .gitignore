@@ -1,0 +1,39 @@
+# JetBrains Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+*.secret
+*.key
+*.pem
+
+# Python cache if we use Python later
+__pycache__/
+*.pyc
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Archive files
+*.zip
+*.7z
+*.rar
+
+# Email/client/local exports that may contain sensitive data
+*.pst
+*.ost
+
+# Optional: keep raw samples out by default if they may contain sensitive data
+samples/raw/*
+!samples/raw/.gitkeep
