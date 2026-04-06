@@ -11,11 +11,11 @@ This file provides a quick overview of all phishing analysis cases included in t
 - Category: Credential phishing
 - Theme: Fake Microsoft password reset
 - Main red flags:
-    - lookalike domain
-    - reply-to mismatch
-    - urgent language
-    - link mismatch
-    - credential-related request
+  - lookalike domain
+  - reply-to mismatch
+  - urgent language
+  - link mismatch
+  - credential-related request
 - Verdict: Likely Phishing
 
 ### CASE-002
@@ -24,10 +24,10 @@ This file provides a quick overview of all phishing analysis cases included in t
 - Category: Attachment phishing
 - Theme: Fake overdue invoice
 - Main red flags:
-    - urgent payment language
-    - suspicious attachment
-    - double extension
-    - reply-to mismatch
+  - urgent payment language
+  - suspicious attachment
+  - double extension
+  - reply-to mismatch
 - Verdict: Likely Phishing
 
 ### CASE-003
@@ -36,18 +36,32 @@ This file provides a quick overview of all phishing analysis cases included in t
 - Category: Business Email Compromise (BEC)
 - Theme: Executive payment request
 - Main red flags:
-    - authority impersonation
-    - secrecy
-    - urgent action
-    - anti-verification language
-    - payment-related setup
+  - authority impersonation
+  - secrecy
+  - urgent action
+  - anti-verification language
+  - payment-related setup
 - Verdict: Likely Phishing / BEC
+
+### CASE-004
+- Sample: `samples/sanitized/sample-004-fake-cloud-document-share.txt`
+- Report: `reports/sample-004-analysis.md`
+- Category: Credential phishing
+- Theme: Fake cloud document sharing notification
+- Main red flags:
+  - service impersonation
+  - suspicious sender domain
+  - reply-to mismatch
+  - link mismatch
+  - access urgency
+- Verdict: Likely Phishing
 
 ## Coverage Summary
 Current phishing themes covered in the repository:
 - credential phishing
 - invoice/payment phishing
 - business email compromise
+- fake cloud sharing notification phishing
 
 ## Notes
 All samples in this repository are sanitized training examples created for safe educational and portfolio use.
