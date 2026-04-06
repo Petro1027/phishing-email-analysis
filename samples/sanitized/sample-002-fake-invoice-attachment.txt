@@ -1,0 +1,24 @@
+Sample ID: SAMPLE-002
+Sample Type: Sanitized Training Example
+Scenario: Fake invoice delivery phishing email with suspicious attachment
+
+From: Billing Department <invoices@fastpay-billing.net>
+Reply-To: accounts@fastpay-secure.net
+To: finance@company-example.com
+Subject: Invoice INV-2026-0416 overdue - immediate review required
+
+Dear Customer,
+
+Please find attached the overdue invoice INV-2026-0416 for your recent transaction.
+
+Payment is required immediately to avoid late charges and service interruption.
+
+Attachment:
+Invoice_INV-2026-0416.pdf.html
+
+Message Notes:
+- The sender claims to be from a billing department.
+- The attachment name appears to reference a PDF, but the full extension is .pdf.html
+- The email creates urgency by mentioning overdue payment, late charges, and service interruption.
+- This is a sanitized educational sample.
+- All addresses and identifiers are fictional training data.
