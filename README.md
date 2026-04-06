@@ -1,64 +1,73 @@
 # Phishing Email Analysis
 
 ## Overview
-This repository contains a safe, legal, home-lab style phishing email analysis project created for cybersecurity portfolio purposes.
+This repository contains a safe, legal, home-lab phishing email analysis project created for cybersecurity portfolio purposes.
 
 The project demonstrates:
-- structured phishing email review
-- identification of social engineering indicators
+- phishing email triage and review
+- identification of social engineering tactics
 - safe handling of sanitized training samples
-- written reporting in a repeatable analyst-friendly format
+- written reporting in a structured analyst-style format
+- documentation-first cybersecurity workflow
 
 ## Project Goals
-- practice phishing email analysis in a safe environment
-- build a professional GitHub portfolio project
-- document a repeatable workflow
-- demonstrate security awareness and reporting skills
+- practice phishing email analysis safely
+- build a GitHub-ready cybersecurity portfolio project
+- demonstrate repeatable analytical thinking
+- improve written reporting and documentation habits
 
 ## Safety Rules
 This repository is for educational and portfolio purposes only.
 
 It does NOT include:
-- live phishing operations
-- malicious interaction with attacker infrastructure
 - real victim data
-- private mailbox exports
-- harmful attachments
+- real mailbox exports
+- live phishing operations
+- interaction with malicious infrastructure
+- harmful attachments or payloads
 
 ## Repository Structure
-- `docs/` - methodology and process documentation
-- `reports/` - completed analysis reports and templates
-- `samples/raw/` - raw samples if ever used privately and legally
-- `samples/sanitized/` - public-safe redacted or fictional training samples
-- `tools/` - helper scripts or automation added later
+- `docs/` - methodology, glossary, checklist, roadmap, notes, and case index
+- `reports/` - report template and completed analysis reports
+- `samples/raw/` - private/raw samples if ever used legally and safely
+- `samples/sanitized/` - public-safe training samples
+- `tools/` - helper scripts or utilities added later
 
-## Current Contents
-
-### Documentation
+## Key Documents
 - `docs/analysis-methodology.md`
+- `docs/phishing-review-checklist.md`
+- `docs/phishing-glossary.md`
+- `docs/case-index.md`
+- `docs/project-roadmap.md`
+
+## Completed Cases
+- `sample-001` - Fake Microsoft password reset phishing
+- `sample-002` - Fake invoice attachment phishing
+- `sample-003` - Business Email Compromise (BEC) / executive payment request phishing
+
+## Reports
 - `reports/report-template.md`
-
-### Sample Analyses
-- `samples/sanitized/sample-001-fake-microsoft-password-reset.txt`
 - `reports/sample-001-analysis.md`
-
-- `samples/sanitized/sample-002-fake-invoice-attachment.txt`
 - `reports/sample-002-analysis.md`
+- `reports/sample-003-analysis.md`
 
 ## Analysis Workflow
-1. Collect or create a safe email sample
+1. Create or collect a safe sample
 2. Sanitize all sensitive content
 3. Review sender, subject, body, links, and attachments
-4. Identify phishing indicators and red flags
-5. Produce a written verdict and recommended action
+4. Identify red flags and phishing indicators
+5. Write a verdict and recommended action
+6. Document the case in a repeatable format
 
 ## Skills Demonstrated
-- phishing detection
-- email content analysis
-- social engineering recognition
-- suspicious sender and domain review
+- phishing analysis
+- suspicious email review
+- social engineering detection
+- sender and domain inspection
+- attachment risk recognition
+- BEC awareness
+- structured reporting
 - safe documentation practices
-- incident reporting mindset
 
 ## Status
-In progress. More phishing scenarios and analysis reports will be added over time.
+In progress. Additional phishing scenarios, analyst notes, and helper tools will be added over time.
