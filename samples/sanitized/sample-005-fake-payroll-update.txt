@@ -1,0 +1,31 @@
+Sample ID: SAMPLE-005
+Sample Type: Sanitized Training Example
+Scenario: Fake payroll update phishing email
+
+From: HR Payroll Services <payroll@company-payroll-portal.com>
+Reply-To: hr-support@employee-payroll-secure.net
+To: employee@company-example.com
+Subject: Action required: confirm direct deposit details for upcoming payroll
+
+Hello,
+
+As part of a recent payroll system update, all employees must confirm their direct deposit information before the next payroll cycle.
+
+Please use the secure payroll verification page below to confirm your banking details by the end of today to avoid any delay in salary processing.
+
+Visible Link Text:
+https://company.example/payroll
+
+Actual Link Destination:
+http://employee-payroll-secure-check.com/login
+
+Failure to complete the verification process today may result in delayed payment.
+
+Regards,
+HR Payroll Services
+
+Attachment: none
+Notes:
+- This is a sanitized educational sample.
+- All domains, addresses, and identifiers are fictional training data.
+- This sample represents a payroll-themed credential harvesting phishing scenario.
